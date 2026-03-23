@@ -1,0 +1,29 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="defaultGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#616161;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="300" height="200" fill="#F5F5F5"/>
+  
+  <!-- 图片图标 -->
+  <rect x="75" y="50" width="150" height="100" rx="10" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- 山峰图标 -->
+  <polygon points="90,130 110,110 130,120 150,100 170,110 190,95 210,105 210,135 90,135" fill="url(#defaultGradient)"/>
+  
+  <!-- 太阳图标 -->
+  <circle cx="180" cy="75" r="12" fill="#FFC107"/>
+  <line x1="180" y1="55" x2="180" y2="60" stroke="#FFC107" stroke-width="2"/>
+  <line x1="195" y1="75" x2="190" y2="75" stroke="#FFC107" stroke-width="2"/>
+  <line x1="180" y1="95" x2="180" y2="90" stroke="#FFC107" stroke-width="2"/>
+  <line x1="165" y1="75" x2="170" y2="75" stroke="#FFC107" stroke-width="2"/>
+  
+  <!-- 文字 -->
+  <text x="150" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">
+    暂无图片
+  </text>
+</svg>
